@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/title_layout"
+    android:layout_marginTop="10dp"
+    >
+
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:id="@+id/user"
+        android:background="@drawable/user"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+       />
+
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/user"
+        android:id="@+id/edit"
+        android:background="@drawable/edit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/bluetooth"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/bluetooth"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:background="#0b80d6"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true">
+
+    </LinearLayout>
+
+</RelativeLayout>
